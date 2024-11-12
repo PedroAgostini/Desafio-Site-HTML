@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Parisienne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FAF7F0;
+}
+
+header img {
+    padding-top: 2%;
+    width: 15%;
+}
+
+header h1 {
+    font-family: "Parisienne", cursive;
+    font-size: 50px;
+    color: #33420b;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    background-color: #FAF7F0;
+}
+
+.navegation {
+    padding: 50px;
+    width: 30%;
+}
+
+.navegation nav {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 5%;
+}
+
+.navegation a {
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Lexend", serif;
+}
+
+.navegation a:hover {
+    color: #33420b;
+}
+
+.content {
+    width: 70%;
+    padding: 50px;
+}
+
+.content p {
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: "Parisienne", cursive;
+    font-weight: 900;
+    text-align: justify;
+}
+
+mark {
+    color: #33420b;
+    background-color: transparent;
+}
+
+.content q {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #33420b;
+    font-size: 45px;
+    font-family: "Parisienne", cursive;
+    font-weight: 900;
+}
+
+.horarios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horarios p {
+    font-size: 35px;
+}
+
+.horarios table {
+    -webkit-box-shadow: 14px 11px 19px 1px rgba(0,0,0,0.82); 
+    box-shadow: 14px 11px 19px 1px rgba(0,0,0,0.82);
+    color: #000000;
+    font-family: "Lexend", serif;
+    width: 600px;
+    background-color: #117a08;
+}
+
+.horarios thead {
+    background-color: #117a08;
+}
+
+.horarios tbody tr:nth-child(even) td{
+    background-color: #47b82bb9;
+}
+
+.horarios tbody tr:hover td{
+    background-color: #02380b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contacts {
+    margin-top: 50px;
+}
+
+.contacts p {
+    font-family: "Lexend", serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+form {
+    width: 650px;
+    border: 2px solid #5f5f5f;
+    background-color: #cbbf8f;
+    padding: 20px;
+    font-family: "Lexend", serif;
+    border-radius: 8px;
+}
+
+
+label {
+    font-size: 20px;
+}
+
+input {
+    display: flex;
+    border:  2px solid;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+textarea {
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+button {
+    font-family: "Lexend", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid;
+    width: 120px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #dbdbdb;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70px;
+    background-color: #cbbf8f;
+}
+
+footer p {
+    font-size: 18px;
+    color: #33420b;
+    font-family: "Lexend", serif;
+    font-weight: 800;
+    text-align: center;
+}
